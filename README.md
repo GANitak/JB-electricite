@@ -1,2 +1,2 @@
-# JB-lectricit-
+# JB-électricité
 electrician website
