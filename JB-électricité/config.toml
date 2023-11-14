@@ -1,0 +1,4 @@
+baseURL = 'http://JB-électricité.fr/'
+languageCode = 'en-us'
+title = 'JB-électricité'
+theme = 'up-business-theme'
