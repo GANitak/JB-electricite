@@ -2,7 +2,9 @@
 title: 'A propos de JB éléctricité'
 button: 'A propos'
 weight: 2
+tags: '["Lumières","Rénovations","Budgets","Conformité]'
 ---
+
 ![JB_logo_éléc](/images/JBéléctricité.png)
 
 Electricien entre Dole et Besançon, pouvant faire vos rénovations électiques, installations électriques, mises en conformités, ventilation, réseaux informatique, disponible sur rendez-vous par téléphone ou email.

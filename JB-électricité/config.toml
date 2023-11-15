@@ -2,3 +2,47 @@ baseURL = 'http://JB-électricité.fr/'
 languageCode = 'en-us'
 title = 'JB-électricité'
 theme = 'up-business-theme'
+favicon = "images/JB.svg" 
+
+[languages]
+[languages.en]
+description = "Electricien entre Dole & Besançon (25)"
+languageName ="French"
+# Weight used for sorting.
+weight = 1
+
+############################## navigation ###############################
+
+[[menu.main]]
+  name = 'A propos'
+  pageRef = '/A_propos'
+  weight = 10
+
+
+############################# social site ########################
+
+[[params.social]]
+icon = "fab fa-github"
+link = "https://github.com/GANitak"
+
+#################### default parameters ################################
+
+[params]
+# Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+github_repo = "https://github.com/GANitak/JB-Electricite/issues"
+
+#Google Custom Search Engine ID. Remove or comment out to disable search.
+gcs_engine_id = ""
+
+# Enable Algolia DocSearch
+algolia_docsearch = false
+
+# Enable Lunr.js offline search
+offlineSearch = false
+
+# Enable syntax highlighting and copy buttons on code blocks with Prism
+prism_syntax_highlighting = false
+
+# defaultTheme: light
+defaultTheme = "dark"
+#defaultTheme: auto # to switch between dark or light according to browser theme
