@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-  {{ partial "head/head.html" . }}
-  <body>
-    {{- block "main" . -}}
-    
-# Hello
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default " auto" }}">
 
-    {{- end -}}
-  </body>
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print " list" -}} {{- end -}} {{- if eq site.Params.defaultTheme `dark` -}} {{- print " dark" }} {{- end -}} " id="
+    top">
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+    </main>
+</body>
+
 </html>
