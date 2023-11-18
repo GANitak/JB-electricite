@@ -3,11 +3,13 @@ languageCode = 'en-us'
 title = 'JB-électricité'
 theme = 'up-business-theme'
 favicon = "images/JB.svg" 
+enableRobotsTXT = true
 
 [languages]
 [languages.en]
 description = "Electricien entre Dole & Besançon (25)"
 languageName ="French"
+
 # Weight used for sorting.
 weight = 1
 
@@ -18,12 +20,6 @@ weight = 1
   pageRef = '/post/A_propos'
   weight = 10
 
-
-############################# social site ########################
-
-[[params.social]]
-icon = "fab fa-github"
-link = "https://github.com/GANitak"
 
 #################### default parameters ################################
 
@@ -49,8 +45,11 @@ defaultTheme = "dark"
 
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
+############################# social site ########################
 
-enableRobotsTXT = true
+[[params.social]]
+icon = "fab fa-github"
+link = "https://github.com/GANitak"
 
 # You can add your own taxonomies
 [taxonomies]
