@@ -20,6 +20,22 @@ weight = 1
   pageRef = '/post/A_propos'
   weight = 10
 
+[[menus.main]]
+  name = "How we work"
+  url = "/post/travaux"
+  weight = 10
+
+[[menus.main]]
+  name = "Prix"
+  url = "/post/prix"
+  weight = 10
+
+[[buttons]]
+  name = "Rendez-vous"
+  url = "/Calendly"
+  weight = 5
+  pre = "btn btn-primary text-light"
+
 
 #################### default parameters ################################
 
