@@ -17,17 +17,17 @@ weight = 1
 
 [[menu.main]]
   name = 'A propos'
-  pageRef = '/post/A_propos'
+  pageRef = '/'
   weight = 10
 
 [[menus.main]]
-  name = "How we work"
-  url = "/post/travaux"
+  name = "Travaux"
+  url = "/travaux"
   weight = 10
 
 [[menus.main]]
   name = "Prix"
-  url = "/post/prix"
+  url = "/prix"
   weight = 10
 
 [[buttons]]
@@ -35,7 +35,6 @@ weight = 1
   url = "/Calendly"
   weight = 5
   pre = "btn btn-primary text-light"
-
 
 #################### default parameters ################################
 
@@ -81,6 +80,17 @@ taxonomyCloudTitle = ["Tag Cloud", "Categories"]
 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
 taxonomyPageHeader = ["tags", "categories"]
+
+# markup 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
+    style = "monokailight"
+    # Uncomment if you want your chosen highlight style used for code blocks without a specified language
+    # guessSyntax = "true"
 
 # Image processing configuration.
 [imaging]

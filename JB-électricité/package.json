@@ -1,0 +1,22 @@
+{
+  "name": "jb-electricite",
+  "version": "1.0.0",
+  "description": "electrician website",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GANitak/JB-electricite.git"
+  },
+  "keywords": [
+    "JB"
+  ],
+  "author": "GANitak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GANitak/JB-electricite/issues"
+  },
+  "homepage": "https://github.com/GANitak/JB-electricite#readme"
+}

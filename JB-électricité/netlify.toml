@@ -4,4 +4,4 @@
   
 [build.environment]
   HUGO_VERSION = "0.92.2"
-
+# hugo v0.92.2+extended linux/amd64

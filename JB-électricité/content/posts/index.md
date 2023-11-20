@@ -4,6 +4,7 @@ aliases: ["posts", "renov", "informatique", "showcase", "rendez-vous"]
 title: "Posts"
 author: "GANitak"
 tags: ["index"]
+description: "French electrician website"
 ---
 
 Content of the website is intended to a french public, therefore all publications will be written in french.
